@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Russkyc.AttachedUtilities.FileStreamExtensions</name>
+    </assembly>
+    <members>
+        <member name="T:Russkyc.AttachedUtilities.FileStreamExtensions.FileStreamExtensions">
+            <summary>
+            Handles FileStreamExtension Extension Methods.
+            </summary>
+        </member>
+        <member name="M:Russkyc.AttachedUtilities.FileStreamExtensions.FileStreamExtensions.StreamCreate(System.String)">
+            <summary>
+            An extension method to create files using FileStream StreamWriter.
+            </summary>
+            <example>
+            <code>
+            string path = @"C:/TestFile.txt";
+            path.StreamCreate();
+            </code>
+            </example>
+            <param name="path">Path to file.</param>
+            <returns>Filepath value of type: string.</returns>
+        </member>
+        <member name="M:Russkyc.AttachedUtilities.FileStreamExtensions.FileStreamExtensions.StreamWrite(System.String,System.String)">
+            <summary>
+            An extension method to write content to files using FileStream StreamWriter.
+            </summary>
+            <example>
+            <code>
+            string path = @"C:/TestFile.txt";
+            path.StreamWrite("This is written using C#!");
+            </code>
+            </example>
+            <param name="path">Path to file.</param>
+            <param name="content">Content to write to file.</param>
+            <returns>Filepath value of type: string.</returns>
+        </member>
+        <member name="M:Russkyc.AttachedUtilities.FileStreamExtensions.FileStreamExtensions.StreamAppend(System.String,System.String)">
+            <summary>
+            An extension method to append content to files using FileStream StreamWriter.
+            </summary>
+            <example>
+            <code>
+            string path = @"C:/TestFile.txt";
+            path.StreamAppendWrite("This is written using C#!");
+            </code>
+            </example>
+            <param name="path">Path to file.</param>
+            <param name="content">Content to write to file.</param>
+            <returns>Filepath value of type: string.</returns>
+        </member>
+        <member name="M:Russkyc.AttachedUtilities.FileStreamExtensions.FileStreamExtensions.StreamWriteLines(System.String,System.String[])">
+            <summary>
+            An extension method to write lines to file using FileStream StreamWriter.
+            </summary>
+            <example>
+            <code>
+            string path = @"C:/TestFile.txt";
+            string[] lines = { "Line 1", "Line 2", "Line 3" };
+            path.StreamWriteLines(lines);
+            </code>
+            </example>
+            <param name="path">Path file.</param>
+            <param name="content">Array of content to write to file</param>
+            <returns>Filepath value of type: string.</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Russkyc.AttachedUtilities.FileStreamExtensions.FileStreamExtensions.StreamWriteLines(System.String,System.Collections.Generic.List{System.String})" -->
+        <member name="M:Russkyc.AttachedUtilities.FileStreamExtensions.FileStreamExtensions.StreamAppendLines(System.String,System.String[])">
+            <summary>
+            An extension method to append lines to files using FileStream Stream
+            </summary>
+            <example>
+            <code>
+            string path = @"C:/TestFile.txt";
+            string[] lines = { "Line 1", "Line 2", "Line 3" };
+            path.StreamAppendWriteLines(lines);
+            </code>
+            </example>
+            <param name="path">Path file.</param>
+            <param name="content">Array of content to write to file</param>
+            <returns>Filepath value of type: string.</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Russkyc.AttachedUtilities.FileStreamExtensions.FileStreamExtensions.StreamAppendLines(System.String,System.Collections.Generic.List{System.String})" -->
+        <member name="M:Russkyc.AttachedUtilities.FileStreamExtensions.FileStreamExtensions.StreamRead(System.String)">
+            <summary>
+            An extension method to read file content using FileStream StreamReader.
+            </summary>
+            <example>
+            <code>
+            string path = @"C:/TestFile.txt";
+            string message = path.StreamRead();
+            </code>
+            </example>
+            <param name="path">Path to file.</param>
+            <returns>File Content value of type: string.</returns>
+        </member>
+        <member name="M:Russkyc.AttachedUtilities.FileStreamExtensions.FileStreamExtensions.StreamReadLines(System.String)">
+            <summary>
+            An extension method to read files and split content by lines.
+            </summary>
+            <example>
+            <code>
+            string path = @"C:/TestFile.txt";
+            string[] records = path.StreamReadLines();
+            </code>
+            </example>
+            <param name="path">Path to file.</param>
+            <returns>File Content value of type: string[].</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Russkyc.AttachedUtilities.FileStreamExtensions.FileStreamExtensions.StreamListLines(System.String)" -->
+        <member name="M:Russkyc.AttachedUtilities.FileStreamExtensions.FileStreamExtensions.StreamReadSplit(System.String,System.Char[])">
+            <summary>
+            An extension method to read files and split content to string array.
+            </summary>
+            <example>
+            <code>
+            string path = @"C:/TestFile.txt";
+            string[] records = path.StreamReadSplit();
+            </code>
+            </example>
+            <param name="path">Path to file.</param>
+            <param name="separator">A character, or collection of characters that splits the string</param>
+            <returns>File Content value of type: string[].</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Russkyc.AttachedUtilities.FileStreamExtensions.FileStreamExtensions.StreamListSplit(System.String,System.Char[])" -->
+    </members>
+</doc>

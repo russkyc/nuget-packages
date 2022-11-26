@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <LangVersion>8</LangVersion>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>FileStream Extension Utilities</Title>
+        <Description>A FileStream utility class Library for NET Standard, NET Core, and NET Framework.</Description>
+        <Authors>Russell Camo</Authors>
+        <PackageVersion>1.0.5</PackageVersion>
+        <PackageReleaseNotes>Add StreamList Functions that return List&lt;string&gt; instead of string[]. see readme for usage.</PackageReleaseNotes>
+        <RootNamespace>Russkyc.AttachedUtilities.FileStreamExtensions</RootNamespace>
+        <PackageIcon>AttachedUtilities.png</PackageIcon>
+        <Copyright>Russell Camo 2022</Copyright>
+        <PackageTags>Filestream FileStream File Stream Helper Extension Methods Attached Methods</PackageTags>
+    </PropertyGroup>
+    <PropertyGroup>
+        <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+      <DebugType>embedded</DebugType>
+      <DocumentationFile>bin\Release\Russkyc.AttachedUtilities.FileStreamExtensions.xml</DocumentationFile>
+    </PropertyGroup>
+    <ItemGroup>
+        <None Include="LICENSE.txt" Pack="true" PackagePath="" />
+        <None Include="README.md" Pack="true" PackagePath="" />
+        <None Include="AttachedUtilities.png" Pack="true" PackagePath="" />
+    </ItemGroup>
+</Project>

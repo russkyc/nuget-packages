@@ -1,0 +1,9 @@
+C:\Users\Russell\RiderProjects\RusskycPackages\Russkyc.AttachedUtilities.FileStreamExtensions\bin\Release\netcoreapp2.0\Russkyc.AttachedUtilities.FileStreamExtensions.deps.json
+C:\Users\Russell\RiderProjects\RusskycPackages\Russkyc.AttachedUtilities.FileStreamExtensions\bin\Release\netcoreapp2.0\Russkyc.AttachedUtilities.FileStreamExtensions.dll
+C:\Users\Russell\RiderProjects\RusskycPackages\Russkyc.AttachedUtilities.FileStreamExtensions\bin\Release\netcoreapp2.0\Russkyc.AttachedUtilities.FileStreamExtensions.xml
+C:\Users\Russell\RiderProjects\RusskycPackages\Russkyc.AttachedUtilities.FileStreamExtensions\obj\Release\netcoreapp2.0\Russkyc.AttachedUtilities.FileStreamExtensions.csproj.AssemblyReference.cache
+C:\Users\Russell\RiderProjects\RusskycPackages\Russkyc.AttachedUtilities.FileStreamExtensions\obj\Release\netcoreapp2.0\Russkyc.AttachedUtilities.FileStreamExtensions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Russell\RiderProjects\RusskycPackages\Russkyc.AttachedUtilities.FileStreamExtensions\obj\Release\netcoreapp2.0\Russkyc.AttachedUtilities.FileStreamExtensions.AssemblyInfoInputs.cache
+C:\Users\Russell\RiderProjects\RusskycPackages\Russkyc.AttachedUtilities.FileStreamExtensions\obj\Release\netcoreapp2.0\Russkyc.AttachedUtilities.FileStreamExtensions.AssemblyInfo.cs
+C:\Users\Russell\RiderProjects\RusskycPackages\Russkyc.AttachedUtilities.FileStreamExtensions\obj\Release\netcoreapp2.0\Russkyc.AttachedUtilities.FileStreamExtensions.csproj.CoreCompileInputs.cache
+C:\Users\Russell\RiderProjects\RusskycPackages\Russkyc.AttachedUtilities.FileStreamExtensions\obj\Release\netcoreapp2.0\Russkyc.AttachedUtilities.FileStreamExtensions.dll

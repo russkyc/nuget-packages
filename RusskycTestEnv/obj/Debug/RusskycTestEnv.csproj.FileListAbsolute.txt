@@ -1,0 +1,10 @@
+C:\Users\Russell\RiderProjects\RusskycTestEnv\RusskycTestEnv\bin\Debug\RusskycTestEnv.exe
+C:\Users\Russell\RiderProjects\RusskycTestEnv\RusskycTestEnv\bin\Debug\RusskycTestEnv.pdb
+C:\Users\Russell\RiderProjects\RusskycTestEnv\RusskycTestEnv\bin\Debug\Russkyc.NetFilestreamExtensions.dll
+C:\Users\Russell\RiderProjects\RusskycTestEnv\RusskycTestEnv\bin\Debug\Russkyc.NetFilestreamExtensions.pdb
+C:\Users\Russell\RiderProjects\RusskycTestEnv\RusskycTestEnv\obj\Debug\RusskycTestEnv.csproj.AssemblyReference.cache
+C:\Users\Russell\RiderProjects\RusskycTestEnv\RusskycTestEnv\obj\Debug\RusskycTestEnv.csproj.SuggestedBindingRedirects.cache
+C:\Users\Russell\RiderProjects\RusskycTestEnv\RusskycTestEnv\obj\Debug\RusskycTestEnv.csproj.CoreCompileInputs.cache
+C:\Users\Russell\RiderProjects\RusskycTestEnv\RusskycTestEnv\obj\Debug\RusskycTestEnv.csproj.CopyComplete
+C:\Users\Russell\RiderProjects\RusskycTestEnv\RusskycTestEnv\obj\Debug\RusskycTestEnv.exe
+C:\Users\Russell\RiderProjects\RusskycTestEnv\RusskycTestEnv\obj\Debug\RusskycTestEnv.pdb

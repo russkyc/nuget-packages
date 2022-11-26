@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Russkyc.AttachedUtilities.FileStreamExtensions", "Russkyc.AttachedUtilities.FileStreamExtensions\Russkyc.AttachedUtilities.FileStreamExtensions.csproj", "{552A4F6B-4962-49E5-9FFF-7BEFCC9E7D32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETFrameworkTests", "NETFrameworkTests\NETFrameworkTests.csproj", "{605C6B42-E5D6-46E1-A065-05C6EC938340}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{552A4F6B-4962-49E5-9FFF-7BEFCC9E7D32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{552A4F6B-4962-49E5-9FFF-7BEFCC9E7D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{552A4F6B-4962-49E5-9FFF-7BEFCC9E7D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{552A4F6B-4962-49E5-9FFF-7BEFCC9E7D32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{605C6B42-E5D6-46E1-A065-05C6EC938340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{605C6B42-E5D6-46E1-A065-05C6EC938340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{605C6B42-E5D6-46E1-A065-05C6EC938340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{605C6B42-E5D6-46E1-A065-05C6EC938340}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

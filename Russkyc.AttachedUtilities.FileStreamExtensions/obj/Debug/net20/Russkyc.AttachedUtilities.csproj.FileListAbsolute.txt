@@ -1,0 +1,5 @@
+C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\obj\Debug\net20\Russkyc.AttachedUtilities.csproj.AssemblyReference.cache
+C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\obj\Debug\net20\Russkyc.AttachedUtilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\obj\Debug\net20\Russkyc.AttachedUtilities.AssemblyInfoInputs.cache
+C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\obj\Debug\net20\Russkyc.AttachedUtilities.AssemblyInfo.cs
+C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\obj\Debug\net20\Russkyc.AttachedUtilities.csproj.CoreCompileInputs.cache

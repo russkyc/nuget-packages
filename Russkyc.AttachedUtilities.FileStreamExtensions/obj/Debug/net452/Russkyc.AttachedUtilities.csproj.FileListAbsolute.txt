@@ -1,0 +1,9 @@
+C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\bin\Debug\net452\Russkyc.AttachedUtilities.dll
+C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\bin\Debug\net452\Russkyc.AttachedUtilities.pdb
+C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\obj\Debug\net452\Russkyc.AttachedUtilities.csproj.AssemblyReference.cache
+C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\obj\Debug\net452\Russkyc.AttachedUtilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\obj\Debug\net452\Russkyc.AttachedUtilities.AssemblyInfoInputs.cache
+C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\obj\Debug\net452\Russkyc.AttachedUtilities.AssemblyInfo.cs
+C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\obj\Debug\net452\Russkyc.AttachedUtilities.csproj.CoreCompileInputs.cache
+C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\obj\Debug\net452\Russkyc.AttachedUtilities.dll
+C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\obj\Debug\net452\Russkyc.AttachedUtilities.pdb

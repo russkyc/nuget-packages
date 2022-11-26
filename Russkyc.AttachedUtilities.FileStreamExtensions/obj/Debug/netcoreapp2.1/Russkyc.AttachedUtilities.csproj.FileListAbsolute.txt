@@ -1,0 +1,10 @@
+C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\bin\Debug\netcoreapp2.1\Russkyc.AttachedUtilities.deps.json
+C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\bin\Debug\netcoreapp2.1\Russkyc.AttachedUtilities.dll
+C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\bin\Debug\netcoreapp2.1\Russkyc.AttachedUtilities.pdb
+C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\obj\Debug\netcoreapp2.1\Russkyc.AttachedUtilities.csproj.AssemblyReference.cache
+C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\obj\Debug\netcoreapp2.1\Russkyc.AttachedUtilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\obj\Debug\netcoreapp2.1\Russkyc.AttachedUtilities.AssemblyInfoInputs.cache
+C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\obj\Debug\netcoreapp2.1\Russkyc.AttachedUtilities.AssemblyInfo.cs
+C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\obj\Debug\netcoreapp2.1\Russkyc.AttachedUtilities.csproj.CoreCompileInputs.cache
+C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\obj\Debug\netcoreapp2.1\Russkyc.AttachedUtilities.dll
+C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\obj\Debug\netcoreapp2.1\Russkyc.AttachedUtilities.pdb

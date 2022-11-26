@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Russkyc.AttachedUtilities</id>
+    <version>1.0.0</version>
+    <title>Attached Utilities by Russkyc</title>
+    <authors>Russell Camo</authors>
+    <license type="file">LICENSE.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <readme>README.md</readme>
+    <description>Attached method utilities for .NET Standard, .NET Core, and .NET Framework.</description>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6" />
+      <group targetFramework=".NETFramework4.6.1" />
+      <group targetFramework=".NETFramework4.6.2" />
+      <group targetFramework=".NETFramework4.7" />
+      <group targetFramework=".NETFramework4.7.1" />
+      <group targetFramework=".NETFramework4.7.2" />
+      <group targetFramework=".NETFramework4.8" />
+      <group targetFramework=".NETCoreApp2.1" />
+      <group targetFramework=".NETCoreApp2.2" />
+      <group targetFramework=".NETCoreApp3.0" />
+      <group targetFramework=".NETCoreApp3.1" />
+      <group targetFramework="net5.0" />
+      <group targetFramework="net6.0" />
+      <group targetFramework=".NETStandard2.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\bin\Debug\net46\Russkyc.AttachedUtilities.dll" target="lib\net46\Russkyc.AttachedUtilities.dll" />
+    <file src="C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\bin\Debug\net461\Russkyc.AttachedUtilities.dll" target="lib\net461\Russkyc.AttachedUtilities.dll" />
+    <file src="C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\bin\Debug\net462\Russkyc.AttachedUtilities.dll" target="lib\net462\Russkyc.AttachedUtilities.dll" />
+    <file src="C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\bin\Debug\net47\Russkyc.AttachedUtilities.dll" target="lib\net47\Russkyc.AttachedUtilities.dll" />
+    <file src="C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\bin\Debug\net471\Russkyc.AttachedUtilities.dll" target="lib\net471\Russkyc.AttachedUtilities.dll" />
+    <file src="C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\bin\Debug\net472\Russkyc.AttachedUtilities.dll" target="lib\net472\Russkyc.AttachedUtilities.dll" />
+    <file src="C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\bin\Debug\net48\Russkyc.AttachedUtilities.dll" target="lib\net48\Russkyc.AttachedUtilities.dll" />
+    <file src="C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\bin\Debug\net5.0\Russkyc.AttachedUtilities.dll" target="lib\net5.0\Russkyc.AttachedUtilities.dll" />
+    <file src="C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\bin\Debug\net6.0\Russkyc.AttachedUtilities.dll" target="lib\net6.0\Russkyc.AttachedUtilities.dll" />
+    <file src="C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\bin\Debug\netcoreapp2.1\Russkyc.AttachedUtilities.dll" target="lib\netcoreapp2.1\Russkyc.AttachedUtilities.dll" />
+    <file src="C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\bin\Debug\netcoreapp2.2\Russkyc.AttachedUtilities.dll" target="lib\netcoreapp2.2\Russkyc.AttachedUtilities.dll" />
+    <file src="C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\bin\Debug\netcoreapp3.0\Russkyc.AttachedUtilities.dll" target="lib\netcoreapp3.0\Russkyc.AttachedUtilities.dll" />
+    <file src="C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\bin\Debug\netcoreapp3.1\Russkyc.AttachedUtilities.dll" target="lib\netcoreapp3.1\Russkyc.AttachedUtilities.dll" />
+    <file src="C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\bin\Debug\netstandard2.1\Russkyc.AttachedUtilities.dll" target="lib\netstandard2.1\Russkyc.AttachedUtilities.dll" />
+    <file src="C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\LICENSE.txt" target="LICENSE.txt" />
+    <file src="C:\Users\Russell\RiderProjects\RusskycTestEnv\Russkyc.AttachedUtilities\README.md" target="README.md" />
+  </files>
+</package>
