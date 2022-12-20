@@ -7,8 +7,8 @@
         <Title>FileStream Extension Utilities</Title>
         <Description>A FileStream utility class Library for NET Standard, NET Core, and NET Framework.</Description>
         <Authors>Russell Camo</Authors>
-        <PackageVersion>1.0.5</PackageVersion>
-        <PackageReleaseNotes>Add StreamList Functions that return List&lt;string&gt; instead of string[]. see readme for usage.</PackageReleaseNotes>
+        <PackageVersion>1.1.0</PackageVersion>
+        <PackageReleaseNotes>Added Read and Write Bytes( Byte[] ).</PackageReleaseNotes>
         <RootNamespace>Russkyc.AttachedUtilities.FileStreamExtensions</RootNamespace>
         <PackageIcon>AttachedUtilities.png</PackageIcon>
         <Copyright>Russell Camo 2022</Copyright>
@@ -17,10 +17,6 @@
     <PropertyGroup>
         <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
         <PackageReadmeFile>README.md</PackageReadmeFile>
-    </PropertyGroup>
-    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-      <DebugType>embedded</DebugType>
-      <DocumentationFile>bin\Release\Russkyc.AttachedUtilities.FileStreamExtensions.xml</DocumentationFile>
     </PropertyGroup>
     <ItemGroup>
         <None Include="LICENSE.txt" Pack="true" PackagePath="" />

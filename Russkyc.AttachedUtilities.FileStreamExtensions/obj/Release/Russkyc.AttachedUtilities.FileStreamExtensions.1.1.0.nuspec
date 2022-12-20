@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Russkyc.AttachedUtilities.FileStreamExtensions</id>
+    <version>1.1.0</version>
+    <title>FileStream Extension Utilities</title>
+    <authors>Russell Camo</authors>
+    <license type="file">LICENSE.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>AttachedUtilities.png</icon>
+    <readme>README.md</readme>
+    <description>A FileStream utility class Library for NET Standard, NET Core, and NET Framework.</description>
+    <releaseNotes>Added Read and Write Bytes( Byte[] ).</releaseNotes>
+    <copyright>Russell Camo 2022</copyright>
+    <tags>Filestream FileStream File Stream Helper Extension Methods Attached Methods</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Russkyc\RiderProjects\Russkyc.Packages\Russkyc.AttachedUtilities.FileStreamExtensions\bin\Release\netstandard2.0\Russkyc.AttachedUtilities.FileStreamExtensions.dll" target="lib\netstandard2.0\Russkyc.AttachedUtilities.FileStreamExtensions.dll" />
+    <file src="C:\Users\Russkyc\RiderProjects\Russkyc.Packages\Russkyc.AttachedUtilities.FileStreamExtensions\LICENSE.txt" target="LICENSE.txt" />
+    <file src="C:\Users\Russkyc\RiderProjects\Russkyc.Packages\Russkyc.AttachedUtilities.FileStreamExtensions\README.md" target="README.md" />
+    <file src="C:\Users\Russkyc\RiderProjects\Russkyc.Packages\Russkyc.AttachedUtilities.FileStreamExtensions\AttachedUtilities.png" target="AttachedUtilities.png" />
+  </files>
+</package>

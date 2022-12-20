@@ -12,6 +12,7 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("Russell Camo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyCopyrightAttribute("Russell Camo 2022")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("A FileStream utility class Library for NET Standard, NET Core, and NET Framework." +
     "")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

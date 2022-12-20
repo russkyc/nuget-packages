@@ -7,3 +7,13 @@ C:\Users\Russell\RiderProjects\RusskycPackages\Russkyc.AttachedUtilities.FileStr
 C:\Users\Russell\RiderProjects\RusskycPackages\Russkyc.AttachedUtilities.FileStreamExtensions\obj\Release\netstandard2.0\Russkyc.AttachedUtilities.FileStreamExtensions.AssemblyInfo.cs
 C:\Users\Russell\RiderProjects\RusskycPackages\Russkyc.AttachedUtilities.FileStreamExtensions\obj\Release\netstandard2.0\Russkyc.AttachedUtilities.FileStreamExtensions.csproj.CoreCompileInputs.cache
 C:\Users\Russell\RiderProjects\RusskycPackages\Russkyc.AttachedUtilities.FileStreamExtensions\obj\Release\netstandard2.0\Russkyc.AttachedUtilities.FileStreamExtensions.dll
+C:\Users\Russkyc\RiderProjects\Russkyc.Packages\Russkyc.AttachedUtilities.FileStreamExtensions\bin\Release\netstandard2.0\Russkyc.AttachedUtilities.FileStreamExtensions.deps.json
+C:\Users\Russkyc\RiderProjects\Russkyc.Packages\Russkyc.AttachedUtilities.FileStreamExtensions\bin\Release\netstandard2.0\Russkyc.AttachedUtilities.FileStreamExtensions.dll
+C:\Users\Russkyc\RiderProjects\Russkyc.Packages\Russkyc.AttachedUtilities.FileStreamExtensions\bin\Release\netstandard2.0\Russkyc.AttachedUtilities.FileStreamExtensions.pdb
+C:\Users\Russkyc\RiderProjects\Russkyc.Packages\Russkyc.AttachedUtilities.FileStreamExtensions\obj\Release\netstandard2.0\Russkyc.AttachedUtilities.FileStreamExtensions.csproj.AssemblyReference.cache
+C:\Users\Russkyc\RiderProjects\Russkyc.Packages\Russkyc.AttachedUtilities.FileStreamExtensions\obj\Release\netstandard2.0\Russkyc.AttachedUtilities.FileStreamExtensions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Russkyc\RiderProjects\Russkyc.Packages\Russkyc.AttachedUtilities.FileStreamExtensions\obj\Release\netstandard2.0\Russkyc.AttachedUtilities.FileStreamExtensions.AssemblyInfoInputs.cache
+C:\Users\Russkyc\RiderProjects\Russkyc.Packages\Russkyc.AttachedUtilities.FileStreamExtensions\obj\Release\netstandard2.0\Russkyc.AttachedUtilities.FileStreamExtensions.AssemblyInfo.cs
+C:\Users\Russkyc\RiderProjects\Russkyc.Packages\Russkyc.AttachedUtilities.FileStreamExtensions\obj\Release\netstandard2.0\Russkyc.AttachedUtilities.FileStreamExtensions.csproj.CoreCompileInputs.cache
+C:\Users\Russkyc\RiderProjects\Russkyc.Packages\Russkyc.AttachedUtilities.FileStreamExtensions\obj\Release\netstandard2.0\Russkyc.AttachedUtilities.FileStreamExtensions.dll
+C:\Users\Russkyc\RiderProjects\Russkyc.Packages\Russkyc.AttachedUtilities.FileStreamExtensions\obj\Release\netstandard2.0\Russkyc.AttachedUtilities.FileStreamExtensions.pdb
