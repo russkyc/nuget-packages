@@ -1,0 +1,10 @@
+C:\Users\Russell\RiderProjects\Russkyc.Packages\Russkyc.AttachedUtilities.ConsoleExtensions\bin\Debug\netstandard2.1\Russkyc.AttachedUtilities.ConsoleExtensions.deps.json
+C:\Users\Russell\RiderProjects\Russkyc.Packages\Russkyc.AttachedUtilities.ConsoleExtensions\bin\Debug\netstandard2.1\Russkyc.AttachedUtilities.ConsoleExtensions.dll
+C:\Users\Russell\RiderProjects\Russkyc.Packages\Russkyc.AttachedUtilities.ConsoleExtensions\bin\Debug\netstandard2.1\Russkyc.AttachedUtilities.ConsoleExtensions.pdb
+C:\Users\Russell\RiderProjects\Russkyc.Packages\Russkyc.AttachedUtilities.ConsoleExtensions\obj\Debug\netstandard2.1\Russkyc.AttachedUtilities.ConsoleExtensions.csproj.AssemblyReference.cache
+C:\Users\Russell\RiderProjects\Russkyc.Packages\Russkyc.AttachedUtilities.ConsoleExtensions\obj\Debug\netstandard2.1\Russkyc.AttachedUtilities.ConsoleExtensions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Russell\RiderProjects\Russkyc.Packages\Russkyc.AttachedUtilities.ConsoleExtensions\obj\Debug\netstandard2.1\Russkyc.AttachedUtilities.ConsoleExtensions.AssemblyInfoInputs.cache
+C:\Users\Russell\RiderProjects\Russkyc.Packages\Russkyc.AttachedUtilities.ConsoleExtensions\obj\Debug\netstandard2.1\Russkyc.AttachedUtilities.ConsoleExtensions.AssemblyInfo.cs
+C:\Users\Russell\RiderProjects\Russkyc.Packages\Russkyc.AttachedUtilities.ConsoleExtensions\obj\Debug\netstandard2.1\Russkyc.AttachedUtilities.ConsoleExtensions.csproj.CoreCompileInputs.cache
+C:\Users\Russell\RiderProjects\Russkyc.Packages\Russkyc.AttachedUtilities.ConsoleExtensions\obj\Debug\netstandard2.1\Russkyc.AttachedUtilities.ConsoleExtensions.dll
+C:\Users\Russell\RiderProjects\Russkyc.Packages\Russkyc.AttachedUtilities.ConsoleExtensions\obj\Debug\netstandard2.1\Russkyc.AttachedUtilities.ConsoleExtensions.pdb

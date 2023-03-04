@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Russkyc\\RiderProjects\\Russkyc.Packages\\Russkyc.AttachedUtilities.FileStreamExtensions\\Russkyc.AttachedUtilities.FileStreamExtensions.csproj": {}
+    "C:\\Users\\Russell\\RiderProjects\\Russkyc.Packages\\Russkyc.AttachedUtilities.FileStreamExtensions\\Russkyc.AttachedUtilities.FileStreamExtensions.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Russkyc\\RiderProjects\\Russkyc.Packages\\Russkyc.AttachedUtilities.FileStreamExtensions\\Russkyc.AttachedUtilities.FileStreamExtensions.csproj": {
-      "version": "1.0.5",
+    "C:\\Users\\Russell\\RiderProjects\\Russkyc.Packages\\Russkyc.AttachedUtilities.FileStreamExtensions\\Russkyc.AttachedUtilities.FileStreamExtensions.csproj": {
+      "version": "1.1.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Russkyc\\RiderProjects\\Russkyc.Packages\\Russkyc.AttachedUtilities.FileStreamExtensions\\Russkyc.AttachedUtilities.FileStreamExtensions.csproj",
+        "projectUniqueName": "C:\\Users\\Russell\\RiderProjects\\Russkyc.Packages\\Russkyc.AttachedUtilities.FileStreamExtensions\\Russkyc.AttachedUtilities.FileStreamExtensions.csproj",
         "projectName": "Russkyc.AttachedUtilities.FileStreamExtensions",
-        "projectPath": "C:\\Users\\Russkyc\\RiderProjects\\Russkyc.Packages\\Russkyc.AttachedUtilities.FileStreamExtensions\\Russkyc.AttachedUtilities.FileStreamExtensions.csproj",
-        "packagesPath": "C:\\Users\\Russkyc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Russkyc\\RiderProjects\\Russkyc.Packages\\Russkyc.AttachedUtilities.FileStreamExtensions\\obj\\",
+        "projectPath": "C:\\Users\\Russell\\RiderProjects\\Russkyc.Packages\\Russkyc.AttachedUtilities.FileStreamExtensions\\Russkyc.AttachedUtilities.FileStreamExtensions.csproj",
+        "packagesPath": "C:\\Users\\Russell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Russell\\RiderProjects\\Russkyc.Packages\\Russkyc.AttachedUtilities.FileStreamExtensions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Russkyc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Russell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -63,7 +63,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

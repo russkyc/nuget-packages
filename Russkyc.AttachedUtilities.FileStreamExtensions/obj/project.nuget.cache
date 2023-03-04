@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "QiPquCcs2oIYx7ys9eEGv/dzJfoGM3BUcq0cZLt/qmsOQGkLxZ3R8GjdCDnQHHQpq3XutlTD9n2sE0Lfc/OLJg==",
+  "dgSpecHash": "3wQxLdJNhiGtxzjIyC9becyqa6efHRRnaWtbxxVrGvBo3J6oMH/kAcBZ6aPvBDHYrBp8EeAkRPJO+XMfmjjgTQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Russkyc\\RiderProjects\\Russkyc.Packages\\Russkyc.AttachedUtilities.FileStreamExtensions\\Russkyc.AttachedUtilities.FileStreamExtensions.csproj",
+  "projectFilePath": "C:\\Users\\Russell\\RiderProjects\\Russkyc.Packages\\Russkyc.AttachedUtilities.FileStreamExtensions\\Russkyc.AttachedUtilities.FileStreamExtensions.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Russkyc\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Russkyc\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Russell\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Russell\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

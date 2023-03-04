@@ -51,6 +51,7 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="ConsoleExtensionsTests.cs" />
         <Compile Include="FileStreamExtensionsTests.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>

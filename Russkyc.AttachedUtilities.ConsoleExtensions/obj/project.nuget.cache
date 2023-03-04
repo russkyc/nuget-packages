@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/tOk+HIR3/vTne5xgngD0qTfDpJLD0dMLhKeit/NGwrlunTIwt2uR/7U7j26WGW2u3Fk0Zogdlz5gf+8vATueA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Russell\\RiderProjects\\Russkyc.Packages\\Russkyc.AttachedUtilities.ConsoleExtensions\\Russkyc.AttachedUtilities.ConsoleExtensions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Russell\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Russell\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
