@@ -1,14 +1,36 @@
 ﻿
 using Russkyc.AttachedUtilities.ConsoleExtensions;
+using Russkyc.AttachedUtilities.ConsoleExtensions.Types;
 
 public static class Program
 {
     public static void Main(string[] args)
     {
-        while (true)
+        var fruits = new List<string>
         {
-            var d = "Enter booleans ".GetCharCollection();
-            d.ForEach(s => Console.WriteLine($"{s}"));
-        }
+            "apple",
+            "banana",
+            "cherry",
+            "date",
+            "elderberry",
+            "fig",
+            "grape",
+            "honeydew",
+            "kiwi",
+            "lemon",
+            "mango",
+            "nectarine",
+            "orange",
+            "pear",
+            "quince"
+        };
+
+
+        fruits.ToRichOutput()
+            .SetMode(OutputMode.Debug)
+            .SetForeground(Foreground.Green)
+            .WriteAll(" ");
+
+        "galing galing!".ToRichOutput().WriteLine();
     }
 }

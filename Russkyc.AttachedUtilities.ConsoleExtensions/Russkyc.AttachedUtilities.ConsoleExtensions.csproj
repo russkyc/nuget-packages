@@ -7,11 +7,12 @@
         <Title>Console Extension Utilities</Title>
         <Description>A Console utility class Library for NET Standard, NET Core, and NET Framework.</Description>
         <Authors>Russell Camo</Authors>
-        <PackageVersion>1.0.0</PackageVersion>
+        <PackageVersion>1.1.0</PackageVersion>
         <RootNamespace>Russkyc.AttachedUtilities.ConsoleExtensions</RootNamespace>
         <PackageIcon>AttachedUtilities.png</PackageIcon>
         <Copyright>Russell Camo 2023</Copyright>
         <PackageTags>Extension Attached Methods Console Input Text</PackageTags>
+        <PackageReleaseNotes>Added Console Output Utilities</PackageReleaseNotes>
     </PropertyGroup>
     <PropertyGroup>
         <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>

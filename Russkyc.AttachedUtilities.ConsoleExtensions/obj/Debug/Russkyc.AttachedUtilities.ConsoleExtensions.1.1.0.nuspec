@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Russkyc.AttachedUtilities.ConsoleExtensions</id>
+    <version>1.1.0</version>
+    <title>Console Extension Utilities</title>
+    <authors>Russell Camo</authors>
+    <license type="file">LICENSE.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>AttachedUtilities.png</icon>
+    <readme>README.md</readme>
+    <description>A Console utility class Library for NET Standard, NET Core, and NET Framework.</description>
+    <releaseNotes>Added Console Output Utilities</releaseNotes>
+    <copyright>Russell Camo 2023</copyright>
+    <tags>Extension Attached Methods Console Input Text</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Russell\RiderProjects\Russkyc.Packages\Russkyc.AttachedUtilities.ConsoleExtensions\bin\Debug\netstandard2.0\Russkyc.AttachedUtilities.ConsoleExtensions.dll" target="lib\netstandard2.0\Russkyc.AttachedUtilities.ConsoleExtensions.dll" />
+    <file src="C:\Users\Russell\RiderProjects\Russkyc.Packages\Russkyc.AttachedUtilities.ConsoleExtensions\LICENSE.txt" target="LICENSE.txt" />
+    <file src="C:\Users\Russell\RiderProjects\Russkyc.Packages\Russkyc.AttachedUtilities.ConsoleExtensions\README.md" target="README.md" />
+    <file src="C:\Users\Russell\RiderProjects\Russkyc.Packages\Russkyc.AttachedUtilities.ConsoleExtensions\AttachedUtilities.png" target="AttachedUtilities.png" />
+  </files>
+</package>

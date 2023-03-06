@@ -20,23 +20,11 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-using System.Collections.Generic;
-
-namespace Russkyc.AttachedUtilities.ConsoleExtensions.Interfaces
+namespace Russkyc.AttachedUtilities.ConsoleExtensions.Types
 {
-    public interface IConsoleInput
+    public enum OutputMode
     {
-        char GetChar(IOutput message);
-        List<char> GetCharCollection(IOutput message);
-        string GetString(IOutput message);
-        List<string> GetStringCollection(IOutput message);
-        int GetInt(IOutput message);
-        List<int> GetIntCollection(IOutput message);
-        double GetDouble(IOutput message);
-        List<double> GetDoubleCollection(IOutput message);
-        float GetFloat(IOutput message);
-        List<float> GetFloatCollection(IOutput message);
-        bool GetBool(IOutput message);
-        List<bool> GetBoolCollection(IOutput message);
+        Debug = 2,
+        Console = Debug
     }
 }

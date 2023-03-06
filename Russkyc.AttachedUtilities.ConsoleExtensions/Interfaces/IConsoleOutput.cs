@@ -20,10 +20,35 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
+using System;
+using System.Collections.Generic;
+using Russkyc.AttachedUtilities.ConsoleExtensions.Types;
+
 namespace Russkyc.AttachedUtilities.ConsoleExtensions.Interfaces
 {
     public interface IConsoleOutput
     {
-        
+        IOutput ToRichOutput(string message);
+        List<IOutput> ToRichOutput(char[] message);
+        List<IOutput> ToRichOutput(string[] message);
+        List<IOutput> ToRichOutput(int[] message);
+        List<IOutput> ToRichOutput(double[] message);
+        List<IOutput> ToRichOutput(float[] message);
+        List<IOutput> ToRichOutput(bool[] message);
+        List<IOutput> ToRichOutput(List<char> message);
+        List<IOutput> ToRichOutput(List<string> message);
+        List<IOutput> ToRichOutput(List<int> message);
+        List<IOutput> ToRichOutput(List<double> message);
+        List<IOutput> ToRichOutput(List<float> message);
+        List<IOutput> ToRichOutput(List<bool> message);
+        IOutput SetForeground(IOutput output, ConsoleColor foreground);
+        List<IOutput> SetForeground(List<IOutput> output, ConsoleColor foreground);
+        IOutput SetBackground(IOutput output, ConsoleColor background);
+        List<IOutput> SetBackground(List<IOutput> output, ConsoleColor background);
+        IOutput SetMode(IOutput output, OutputMode mode);
+        List<IOutput> SetMode(List<IOutput> output, OutputMode mode);
+        IOutput Write(IOutput output);
+        IOutput WriteLine(IOutput output);
+        List<IOutput> WriteAll(List<IOutput> output, string delimiter);
     }
 }

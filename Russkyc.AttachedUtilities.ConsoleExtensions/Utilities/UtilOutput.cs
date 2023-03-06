@@ -20,23 +20,31 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-using System.Collections.Generic;
+using System;
+using System.Diagnostics;
+using Russkyc.AttachedUtilities.ConsoleExtensions.Interfaces;
+using Russkyc.AttachedUtilities.ConsoleExtensions.Types;
 
-namespace Russkyc.AttachedUtilities.ConsoleExtensions.Interfaces
+namespace Russkyc.AttachedUtilities.ConsoleExtensions.Utilities
 {
-    public interface IConsoleInput
+    public static class UtilOutput
     {
-        char GetChar(IOutput message);
-        List<char> GetCharCollection(IOutput message);
-        string GetString(IOutput message);
-        List<string> GetStringCollection(IOutput message);
-        int GetInt(IOutput message);
-        List<int> GetIntCollection(IOutput message);
-        double GetDouble(IOutput message);
-        List<double> GetDoubleCollection(IOutput message);
-        float GetFloat(IOutput message);
-        List<float> GetFloatCollection(IOutput message);
-        bool GetBool(IOutput message);
-        List<bool> GetBoolCollection(IOutput message);
+        public static void Colorize(ConsoleColor foreground, ConsoleColor background)
+        {
+            Console.ForegroundColor = foreground;
+            Console.BackgroundColor = background;
+        }
+
+        public static void Write(IOutput output)
+        {
+            if (output.Mode == OutputMode.Console) Console.Write(output.Message);
+            if (output.Mode == OutputMode.Debug) Debug.Write(output.Message);
+        }
+        
+        public static void WriteLine(IOutput output)
+        {
+            if (output.Mode == OutputMode.Console) Console.WriteLine(output.Message);
+            if (output.Mode == OutputMode.Debug) Debug.WriteLine(output.Message);
+        }
     }
 }

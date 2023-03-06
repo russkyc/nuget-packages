@@ -20,8 +20,10 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
+using System;
 using System.Collections.Generic;
 using Russkyc.AttachedUtilities.ConsoleExtensions.Interfaces;
+using Russkyc.AttachedUtilities.ConsoleExtensions.Types;
 using Russkyc.AttachedUtilities.ConsoleExtensions.Utilities;
 
 namespace Russkyc.AttachedUtilities.ConsoleExtensions
@@ -29,17 +31,43 @@ namespace Russkyc.AttachedUtilities.ConsoleExtensions
     public static class ConsoleExtensions
     {
         private static IConsoleInput _consoleInputUtility => new UtilConsoleInput();
-        public static char GetChar(this string message) => _consoleInputUtility.GetChar(message);
-        public static List<char> GetCharCollection(this string message) => _consoleInputUtility.GetCharCollection(message);
-        public static string GetString(this string message) => _consoleInputUtility.GetString(message);
-        public static List<string> GetStringCollection(this string message) => _consoleInputUtility.GetStringCollection(message);
-        public static int GetInt(this string message) => _consoleInputUtility.GetInt(message);
-        public static List<int> GetIntCollection(this string message) => _consoleInputUtility.GetIntCollection(message);
-        public static double GetDouble(this string message) => _consoleInputUtility.GetDouble(message);
-        public static List<double> GetDoubleCollection(this string message) => _consoleInputUtility.GetDoubleCollection(message);
-        public static float GetFloat(this string message) => _consoleInputUtility.GetFloat(message);
-        public static List<float> GetFloatCollection(this string message) => _consoleInputUtility.GetFloatCollection(message);
-        public static bool GetBool(this string message) => _consoleInputUtility.GetBool(message);
-        public static List<bool> GetBoolCollection(this string message) => _consoleInputUtility.GetBoolCollection(message);
+        private static IConsoleOutput _consoleOutputUtility => new UtilConsoleOutput();
+        
+        public static char GetChar(this IOutput message) => _consoleInputUtility.GetChar(message);
+        public static List<char> GetCharCollection(this IOutput message) => _consoleInputUtility.GetCharCollection(message);
+        public static string GetString(this IOutput message) => _consoleInputUtility.GetString(message);
+        public static List<string> GetStringCollection(this IOutput message) => _consoleInputUtility.GetStringCollection(message);
+        public static int GetInt(this IOutput message) => _consoleInputUtility.GetInt(message);
+        public static List<int> GetIntCollection(this IOutput message) => _consoleInputUtility.GetIntCollection(message);
+        public static double GetDouble(this IOutput message) => _consoleInputUtility.GetDouble(message);
+        public static List<double> GetDoubleCollection(this IOutput message) => _consoleInputUtility.GetDoubleCollection(message);
+        public static float GetFloat(this IOutput message) => _consoleInputUtility.GetFloat(message);
+        public static List<float> GetFloatCollection(this IOutput message) => _consoleInputUtility.GetFloatCollection(message);
+        public static bool GetBool(this IOutput message) => _consoleInputUtility.GetBool(message);
+        public static List<bool> GetBoolCollection(this IOutput message) => _consoleInputUtility.GetBoolCollection(message);
+
+        public static IOutput ToRichOutput(this string message) => _consoleOutputUtility.ToRichOutput(message);
+
+        public static List<IOutput> ToRichOutput(this char[] messages) => _consoleOutputUtility.ToRichOutput(messages);
+        public static List<IOutput> ToRichOutput(this string[] messages) => _consoleOutputUtility.ToRichOutput(messages);
+        public static List<IOutput> ToRichOutput(this int[] messages) => _consoleOutputUtility.ToRichOutput(messages);
+        public static List<IOutput> ToRichOutput(this double[] messages) => _consoleOutputUtility.ToRichOutput(messages);
+        public static List<IOutput> ToRichOutput(this float[] messages) => _consoleOutputUtility.ToRichOutput(messages);
+        public static List<IOutput> ToRichOutput(this bool[] messages) => _consoleOutputUtility.ToRichOutput(messages);
+        public static List<IOutput> ToRichOutput(this List<char> messages) => _consoleOutputUtility.ToRichOutput(messages);
+        public static List<IOutput> ToRichOutput(this List<string> messages) => _consoleOutputUtility.ToRichOutput(messages);
+        public static List<IOutput> ToRichOutput(this List<int> messages) => _consoleOutputUtility.ToRichOutput(messages);
+        public static List<IOutput> ToRichOutput(this List<double> messages) => _consoleOutputUtility.ToRichOutput(messages);
+        public static List<IOutput> ToRichOutput(this List<float> messages) => _consoleOutputUtility.ToRichOutput(messages);
+        public static List<IOutput> ToRichOutput(this List<bool> messages) => _consoleOutputUtility.ToRichOutput(messages);
+        public static IOutput SetForeground(this IOutput output, Foreground foreground) => _consoleOutputUtility.SetForeground(output, (ConsoleColor)foreground);
+        public static List<IOutput> SetForeground(this List<IOutput> output, Foreground foreground) => _consoleOutputUtility.SetForeground(output, (ConsoleColor)foreground);
+        public static IOutput SetBackground(this IOutput output, Background background) => _consoleOutputUtility.SetBackground(output, (ConsoleColor)background);
+        public static List<IOutput> SetBackground(this List<IOutput> output, Background background) => _consoleOutputUtility.SetBackground(output, (ConsoleColor)background);
+        public static IOutput SetMode(this IOutput output, OutputMode mode) => _consoleOutputUtility.SetMode(output, mode);
+        public static List<IOutput> SetMode(this List<IOutput> output, OutputMode mode) => _consoleOutputUtility.SetMode(output, mode);
+        public static IOutput Write(this IOutput output) => _consoleOutputUtility.Write(output);
+        public static IOutput WriteLine(this IOutput output) => _consoleOutputUtility.WriteLine(output);
+        public static List<IOutput> WriteAll(this List<IOutput> output, string delimiter) => _consoleOutputUtility.WriteAll(output, delimiter);
     }
 }

@@ -29,79 +29,79 @@ namespace Russkyc.AttachedUtilities.ConsoleExtensions.Utilities
 {
     public class UtilConsoleInput : IConsoleInput
     {
-        public char GetChar(string message)
+        public char GetChar(IOutput message)
         {
-            Console.Write(message);
+            message.Write();
             return Console.ReadLine()![0];
         }
 
-        public List<char> GetCharCollection(string message)
+        public List<char> GetCharCollection(IOutput message)
         {
-            Console.Write(message);
+            message.Write();
             return Console.ReadLine()!.ToList();
         }
 
-        public string GetString(string message)
+        public string GetString(IOutput message)
         {
-            Console.Write(message);
+            message.Write();
             return Console.ReadLine();
         }
 
-        public List<string> GetStringCollection(string message)
+        public List<string> GetStringCollection(IOutput message)
         {
-            Console.Write(message);
+            message.Write();
             return Console.ReadLine()!.Split(new [] {' ' , ',' },StringSplitOptions.RemoveEmptyEntries).ToList();
         }
 
-        public int GetInt(string message)
+        public int GetInt(IOutput message)
         {
-            Console.Write(message);
+            message.Write();
             return int.Parse(Console.ReadLine()!);
         }
 
-        public List<int> GetIntCollection(string message)
+        public List<int> GetIntCollection(IOutput message)
         {
-            Console.Write(message);
+            message.Write();
             return Console.ReadLine()!.Split(new[] { ' ', ',' }, StringSplitOptions.RemoveEmptyEntries).ToList()
                 .Select(int.Parse).ToList();
         }
 
-        public double GetDouble(string message)
+        public double GetDouble(IOutput message)
         {
-            Console.Write(message);
+            message.Write();
             return double.Parse(Console.ReadLine()!);
         }
 
-        public List<double> GetDoubleCollection(string message)
+        public List<double> GetDoubleCollection(IOutput message)
         {
-            Console.Write(message);
+            message.Write();
             return Console.ReadLine()!.Split(new[] { ' ', ',' }, StringSplitOptions.RemoveEmptyEntries).ToList()
                 .Select(double.Parse).ToList();
         }
 
-        public float GetFloat(string message)
+        public float GetFloat(IOutput message)
         {
-            Console.Write(message);
+            message.Write();
             return float.Parse(Console.ReadLine()!);
         }
 
-        public List<float> GetFloatCollection(string message)
+        public List<float> GetFloatCollection(IOutput message)
         {
-            Console.Write(message);
+            message.Write();
             return Console.ReadLine()!.Split(new[] { ' ', ',' }, StringSplitOptions.RemoveEmptyEntries).ToList()
                 .Select(float.Parse).ToList();
         }
 
-        public bool GetBool(string message)
+        public bool GetBool(IOutput message)
         {
-            Console.Write(message);
+            message.Write();
             string answer = Console.ReadLine()!;
             return string.Equals(answer, "y", StringComparison.OrdinalIgnoreCase) || string.Equals(answer, "t", StringComparison.OrdinalIgnoreCase) || string.Equals(answer, "yes", StringComparison.OrdinalIgnoreCase) || string.Equals(answer, "true", StringComparison.OrdinalIgnoreCase) || string.Equals(answer, "1", StringComparison.OrdinalIgnoreCase);
         }
 
-        public List<bool> GetBoolCollection(string message)
+        public List<bool> GetBoolCollection(IOutput message)
         {
-            Console.Write(message);
+            message.Write();
             return Console.ReadLine()!.Split(new[] { ' ', ',' }, StringSplitOptions.RemoveEmptyEntries).ToList()
                 .Select( s => string.Equals(s, "y", StringComparison.OrdinalIgnoreCase) || string.Equals(s, "t", StringComparison.OrdinalIgnoreCase) || string.Equals(s, "yes", StringComparison.OrdinalIgnoreCase) || string.Equals(s, "true", StringComparison.OrdinalIgnoreCase) || string.Equals(s, "1", StringComparison.OrdinalIgnoreCase)).ToList();
         }
